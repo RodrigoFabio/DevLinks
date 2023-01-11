@@ -1,0 +1,33 @@
+.error{
+    background-image: linear-gradient(45deg, #020202,#3e7b7b rgb(0, 0, 0));
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color:white;
+}
+
+.error .link{
+    background-color:rgba(224, 222, 222, 0.6);
+    padding:4px 16px;
+    
+    border-radius: 4px;
+    color: black;
+    transition: background-color, transform 0.6s;
+}
+
+.error .link:hover{
+    background-color:white;
+    transform: scale(1.05);
+}
+
+.imagem{
+    width: 500px;
+    max-width: 90%;
+    
+}
+.title-erro{
+    font-size: 32px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
